@@ -52,7 +52,7 @@ public class LowerWireSize : MonoBehaviour
         float rp_distance = Vector3.Distance(hook_pos, hammer_pos);
 
         //自身のサイズに適用
-        this_t.localScale = new Vector3(first_scale.x, rp_distance * 1.8f, 1);
+        this_t.localScale = new Vector3(first_scale.x, rp_distance * 1.6f, 1);
 
         //フック⇒ハンマーの中心座標を取得
         Vector3 center_pos = Vector3.Lerp(hook_pos, hammer_pos, 0.5f);
