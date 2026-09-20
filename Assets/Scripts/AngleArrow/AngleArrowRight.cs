@@ -32,7 +32,7 @@ public class AngleArrowRight : MonoBehaviour
         }
     }
 
-    public void UpperArmAngle()
+    void UpperArmAngle()
     {
         //Œ»İ‚ÌzŠp“x‚ğæ“¾
         float now_angle = clane_arm_t.localRotation.eulerAngles.z;
