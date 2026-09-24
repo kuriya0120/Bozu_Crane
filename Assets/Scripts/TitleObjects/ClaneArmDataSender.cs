@@ -8,7 +8,8 @@ public class ClaneArmDataSender : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        //保存してあるデータを適用する
+        transform.localEulerAngles = new Vector3(0, 0, clane_angle_data.Arm_Angle);
     }
 
     // Update is called once per frame

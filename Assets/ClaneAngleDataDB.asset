@@ -12,3 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cac416c58f5cd44c96c9e12bbe3cb00, type: 3}
   m_Name: ClaneAngleDataDB
   m_EditorClassIdentifier: Assembly-CSharp::ClaneAngleData
+  Arm_Angle: 22.000021
+  Hook_Position:
+    position_y: -3.3856099
+    rotation_z: 89.55826
+  Hammer_Position:
+    position_y: -5
+    rotation_z: 56.957233

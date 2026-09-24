@@ -54,6 +54,9 @@ public class MoveObjectPositionCircle : MonoBehaviour
         //z成分を消す
         Vector3 mouse_pos = new Vector3(worldPosition.x, worldPosition.y, 0);
 
+        //マウス座標を修正
+        mouse_pos = new Vector3(mouse_pos.x / 1.2f, mouse_pos.y / 1.2f, 0);
+
         //起点の座標を取得
         Vector3 base_pos = base_obj_t.position;
 

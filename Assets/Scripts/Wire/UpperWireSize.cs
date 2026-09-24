@@ -52,7 +52,7 @@ public class UpperWireSize : MonoBehaviour
         float rp_distance = Vector3.Distance(arm_tip_pos, hook_pos);
 
         //自身のサイズに適用
-        this_t.localScale = new Vector3(first_scale.x, rp_distance * 1.8f, 1);
+        this_t.localScale = new Vector3(first_scale.x, rp_distance * 1.75f, 1);
 
         //アーム⇒フックの中心座標を取得
         Vector3 center_pos = Vector3.Lerp(arm_tip_pos, hook_pos, 0.5f);
