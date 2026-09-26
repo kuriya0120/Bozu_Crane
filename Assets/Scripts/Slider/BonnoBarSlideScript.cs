@@ -70,7 +70,7 @@ public class BonnoBarSlideScript : MonoBehaviour
                     ((((float)bonno_count) / max_bonno) * first_width));
 
                 //íÜêSì_ÇèCê≥
-                rect.position = first_pos - new Vector3(((((float)max_bonno - bonno_count) / max_bonno) * first_width) / 2, 0, 0);
+                rect.position = first_pos - new Vector3(((((float)max_bonno - bonno_count) / max_bonno) * first_width) / 0.75f, 0, 0);
 
             }
         }

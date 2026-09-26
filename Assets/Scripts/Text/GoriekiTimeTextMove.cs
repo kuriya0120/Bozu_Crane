@@ -11,7 +11,7 @@ public class GoriekiTimeTextMove : MonoBehaviour
     }
 
 
-    private float move_speed = -100;   //スライド移動する速度
+    private float move_speed = -200;   //スライド移動する速度
 
     private int now_frame = 0;  //現在の経過フレーム
     private int start_slow_time = 10;   //スローになるまでの時間

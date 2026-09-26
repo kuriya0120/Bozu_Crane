@@ -141,7 +141,8 @@ public class BellSwayingScript : MonoBehaviour
                 transform.rotation);
 
             //オーブのサイズを決める
-            orb.GetComponent<Transform>().localScale = new Vector3((float)sub_count / 20.0f, (float)sub_count / 20.0f, 1);
+            float scale = Mathf.Clamp((float)sub_count / 20.0f,0.4f,5.0f);
+            orb.GetComponent<Transform>().localScale = new Vector3(scale, scale, 1);
 
             //オーブの初速を決める
             var orb_rb = orb.GetComponent<Rigidbody2D>();

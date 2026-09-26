@@ -18,7 +18,7 @@ public class CameraMove : MonoBehaviour
         camera.orthographicSize = 3.5f;
 
         //ゲームシーン用にPositionを設定
-        transform.position = new Vector3(0, -1.4f, -10);
+        transform.position = new Vector3(0, -1.6f, -10);
 
         first_pos = transform.position;
     }
